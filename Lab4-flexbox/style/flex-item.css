@@ -1,0 +1,62 @@
+ *{
+    outline: 2px solid magenta;
+ }
+ :root {
+    font-size: 20px;
+ }
+
+#parent {
+    height: 100vw;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    gap: 10px;
+    
+    
+}
+
+#parent div{
+    color: azure;
+   
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nyc {
+    order: 1;
+    background-color: rgb(0, 255, 34);
+    flex-basis: 700px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.chi {
+    order: 4;
+    background-color: blue;
+     flex-grow: 1;
+      flex-shrink: 0;
+}
+.la {
+    order: 3;
+    background-color: peru;
+     flex-grow: 1;
+      flex-shrink: 0;
+      flex-basis: 500px;
+      
+}
+.rio {
+    order: 2;
+    background-color: rgb(151, 151, 35);
+     flex-grow: 1;
+      flex-shrink: 0;
+}
+.la div {
+    background-color: rgb(230, 9, 234);
+    width: 90vw;
+}

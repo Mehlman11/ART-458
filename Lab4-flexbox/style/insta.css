@@ -1,0 +1,21 @@
+* {
+    outline: 2px solid magenta;
+}
+
+:root {
+    font-size: 12px;
+}
+#parent {
+      height: 100vw;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.mainbox {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+}

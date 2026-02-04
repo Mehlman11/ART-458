@@ -1,0 +1,137 @@
+/*#ssn {
+color: red;
+text-decoration: dashed;
+}
+#statusResult {
+    color: blue;
+    text-decoration: dashed;
+    text-decoration: underline;
+} */
+* {
+    outline: 1px solid rgb(16, 16, 16);
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.center {
+    text-align: center;
+}
+.blue {
+    color:blue
+}
+.red {
+    color:red
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+body {
+    font-size: 18pt;
+}
+.pink {
+    color: pink
+}
+.orange {
+    color: orange
+}
+.purple {
+    color:purple
+}
+.western {
+    font-family: "discourse-middle", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+.future {
+    font-family: "cc-stormtrooper-armor", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.fight {
+    font-family: "shogun", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+}
+.scary {
+    font-family: "ccmonstermash", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.weird {
+    font-family: "motion", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.girl {
+    font-family: "glowworm-mn", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.last {
+    font-family: "chupilca-fat", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.lightShade {
+background-color: rgb(43, 198, 118);
+}
+
+.darkShade {
+background-color: rgba(77, 61, 61, 0.733);
+}
+p.shaded {
+    background-color: rgb(205, 22, 22);
+}
+h2.shaded {
+    background-color: blue;
+}
+h1#pageTitle {
+    color: red;
+}
+.lightShade {
+color: aquamarine;
+}
+h2.brown {
+    background-color: rgba(141, 103, 22, 0.944);
+}
+.white {
+    color: aliceblue;
+}
+.brownshade {
+    background-color: rgba(141, 103, 22, 0.944);
+}
+.blackshade {
+    background-color: black;
+}
+.yellowshade {
+    background-color: yellow;
+}
+.green {
+    color: #04fe32;
+}
+.cool {
+    font-family: "kuhlman-vf", sans-serif;
+font-variation-settings: "SEED" 0, "wdth" 100;
+}
+.darkredshade {
+    background-color: darkred;
+}
+.whiteshade {
+    background-color: aliceblue;
+}
+.blueshaded {
+ background-color: blue;
+}
+.orangeshade {
+    background-color: orange;
+}
+p {
+    margin-bottom: 30px;
+}
