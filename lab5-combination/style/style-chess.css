@@ -1,0 +1,159 @@
+/*
+*{
+
+    outline: 1px solid magenta;
+}
+*/
+#maincontainer {
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#chessboard {
+    width: 90%;
+    display: flex;
+    /* horizontal */
+    flex-direction: column;
+    /* vertical */
+    
+    background-color: black;
+    aspect-ratio: 1/1;
+    max-height:100vh;
+    max-width: 100vh;
+
+
+}
+
+
+#chessboard div div{
+
+   
+    flex-grow: 1;
+    background-color: rgb(8, 123, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    color: rgb(251, 250, 250);
+    width: 10%;
+
+}
+
+#chessboard div:nth-of-type(even) div:nth-of-type(even) {
+    background-color: orange;
+}
+
+#chessboard div:nth-of-type(odd) div:nth-of-type(odd) {
+    background-color: orange;
+}
+
+/* defines inside individual div */
+#chessboard div:nth-of-type(2) div:nth-of-type(3) {
+    background-color: rgb(15, 15, 15);
+}
+#chessboard div:nth-of-type(2) div:nth-child(6) {
+    background-color: rgb(15, 15, 15);
+}
+
+
+/* reverse colors every other row */
+#chessboard div:nth-child(16n+1),
+#chessboard div:nth-child(16n+3),
+#chessboard div:nth-child(16n+5),
+#chessboard div:nth-child(16n+7) {
+    
+}
+#chessboard div:nth-child(16n+2),
+#chessboard div:nth-child(16n+4),
+#chessboard div:nth-child(16n+6),
+#chessboard div:nth-child(16n+8) {
+  
+}
+#chessboard > div {
+    height: 12.5%;
+    display: flex;
+    flex-direction: row;
+    outline: 3px solid red;
+    flex-grow: 1;
+}
+
+
+#chessboard div:nth-of-type(1) div:nth-child(1) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(1) div:nth-child(2) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(1) div:nth-child(3) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(1) div:nth-child(4) {
+    background-color: white;
+    color: black;
+}
+
+#chessboard div:nth-of-type(1) div:nth-child(5) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(1) div:nth-child(6) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(1) div:nth-child(7) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(1) div:nth-child(8) {
+    background-color: white;
+    color: black;
+}
+
+
+#chessboard div:nth-of-type(10) div:nth-child(1) {
+    background-color: white;
+    color: black;
+    
+}
+#chessboard div:nth-of-type(10) div:nth-child(2) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(10) div:nth-child(3) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(10) div:nth-child(4) {
+    background-color: white;
+    color: black;
+}
+
+#chessboard div:nth-of-type(10) div:nth-child(5) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(10) div:nth-child(6) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(10) div:nth-child(7) {
+    background-color: white;
+    color: black;
+}
+#chessboard div:nth-of-type(10) div:nth-child(8) {
+    background-color: white;
+    color: black;
+}
